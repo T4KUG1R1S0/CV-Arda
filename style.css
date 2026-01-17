@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f3ee; /* ivory / cream */
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #2b2b2b;
+}
+
+.cv-container {
+    width: 850px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 50px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+    border: 1px solid #e5e0d8;
+}
+
+.cv-header {
+    text-align: center;
+    border-bottom: 1px solid #c4b59a;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.profile-photo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #8c7a5b; /* muted gold */
+    margin-bottom: 18px;
+}
+
+.cv-header h1 {
+    margin: 12px 0 6px 0;
+    font-size: 34px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.cv-header p {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #6a6258;
+}
+
+.cv-section {
+    margin-bottom: 35px;
+}
+
+.cv-section h2 {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    color: #3b3b3b;
+    border-bottom: 1px solid #c4b59a;
+    padding-bottom: 6px;
+}
+
+.cv-section p,
+.cv-section li {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.cv-section ul {
+    padding-left: 20px;
+}
+
+.skill-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.cv-footer {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #777;
+    margin-top: 50px;
+}
